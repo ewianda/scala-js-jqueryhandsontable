@@ -16,13 +16,13 @@ Usage
 First, add the JCenter resolver to your build file:
  
 ```
-resolvers += Resolver.jcenterRepo,
+resolvers += Resolver.bintrayRepo("definitelyscala", "maven")
 ```
 
 Then, add it to your SBT dependencies:
 
 ```
-libraryDependencies += "com.definitelyscala" %%% "scala-js-jqueryhandsontable" % "1.0.2"
+libraryDependencies += "com.definitelyscala" %%% "scala-js-jqueryhandsontable" % "1.1.0"
 ```
 
 Classes and traits are available in the package `com.definitelyscala.jqueryhandsontable`, scaladoc is provided.
